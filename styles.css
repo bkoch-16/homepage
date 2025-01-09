@@ -1,0 +1,56 @@
+@import url('https://fonts.google.com/share?selection.family=Playfair+Display:ital,wght@0,400..900;1,400..900|Roboto:ital,wght@0,100..900;1,100..900');
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    max-width: 800px;
+    margin: auto;
+
+}
+
+header {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+
+}
+
+p,
+h1,
+h2 {
+    text-align: center;
+}
+
+
+.header-image {
+    background-image: url("./images/header.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    position: relative;
+
+    align-items: flex-end;
+    justify-content: center;
+}
+
+h1 {
+    color: white;
+}
+
+.about {
+    margin: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+img {
+    height: 200px;
+    object-fit: contain;
+}
