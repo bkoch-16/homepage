@@ -29,6 +29,12 @@ header {
     grid-row: 1 / span 1;
 }
 
+@media (max-width: 500px) {
+    .wrapper {
+        grid-template-columns: repeat(auto-fill, minmax(260px, 1fr))
+    }
+}
+
 .wrapper-icon {
     display: flex;
     justify-content: right;
