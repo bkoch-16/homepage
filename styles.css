@@ -22,7 +22,7 @@ header {
 }
 
 section {
-    margin-top: 100px;
+    margin-top: 20px;
     padding: 20px;
 }
 
@@ -40,8 +40,32 @@ section {
 }
 
 .tile {
-    background-color: red;
     height: 300px;
+    box-shadow: 0 0 2px gray;
+}
+
+.screenshot {
+    background-color: orange;
+    height: 165px;
+}
+
+.desc {
+    background-color: white;
+    height: 125px;
+
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 1fr 20px 20px;
+}
+
+.desc>p {
+    grid-column: 1/ span 3;
+    text-align: left;
+}
+
+.icon {
+    height: 20px;
+    width: 20px;
 }
 
 p,
@@ -85,7 +109,7 @@ footer {
     grid-template-rows: 300px;
     padding: 20px;
 
-    background-color: darkturquoise;
+    background-color: #108EB7;
 }
 
 
